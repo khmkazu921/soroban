@@ -1,0 +1,35 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "my-glitch-app",
+  "version": "0.0.1",
+  "description": "Soroban",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js; npm install socket.io; npm install -save ejs;"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "livereloadx": "^0.3.10",
+    "lokijs": "^1.5.6",
+    "mongodb": "^3.2.7",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.2.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "lokijs"
+  ]
+}

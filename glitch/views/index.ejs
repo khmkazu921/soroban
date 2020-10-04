@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Result list</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="table.js"></script>
+  </head>
+  <body>
+    <h1>Result list</h1>
+    <!--<p id="date"> 日付 </p>-->
+    <p>
+      <table class="outer">
+        <% var c = 0 %>
+        <% for(var i = 0; i < 2; i++) { %>
+          <tr valign="top">
+          <% for(var j = 0; j < 2; j++) { c++ %>
+            <td>
+              <table id="table<%=c%>" class="inner">
+                <caption>ユーザ<%=c%></caption>
+                <thead>
+                  <tr>
+                    <th class="sheet">シート</th>
+                    <th class="question">質問</th>
+                    <th class="answer">解答</th>
+                    <th class="time">時間</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </td>
+          <% } %>
+          </tr>
+        <% } %>
+      </table>
+    </p>
+  </body>
+</html>

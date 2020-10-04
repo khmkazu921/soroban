@@ -1,0 +1,10 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 error pnpm: 
+    message: {}
+    err: 
+      name: "Error"
+      message: "Could not find the homedir"
+      stack: "Error: Could not find the homedir\n    at getHomedir (/opt/nvm/versions/node/v10.15.3/lib/node_modules/pnpm/lib/node_modules/path-absolute/index.js:22:20)\n    at module.exports (/opt/nvm/versions/node/v10.15.3/lib/node_modules/pnpm/lib/node_modules/path-absolute/index.js:6:16)\n    at Object.<anonymous> (/opt/nvm/versions/node/v10.15.3/lib/node_modules/pnpm/lib/node_modules/@pnpm/store-path/lib/index.js:27:31)\n    at Generator.next (<anonymous>)\n    at /opt/nvm/versions/node/v10.15.3/lib/node_modules/pnpm/lib/node_modules/@pnpm/store-path/lib/index.js:7:71\n    at new Promise (<anonymous>)\n    at __awaiter (/opt/nvm/versions/node/v10.15.3/lib/node_modules/pnpm/lib/node_modules/@pnpm/store-path/lib/index.js:3:12)\n    at Object.default_1 [as default] (/opt/nvm/versions/node/v10.15.3/lib/node_modules/pnpm/lib/node_modules/@pnpm/store-path/lib/index.js:22:12)\n    at Object.<anonymous> (/opt/nvm/versions/node/v10.15.3/lib/node_modules/pnpm/lib/createStoreController.js:33:49)\n    at Generator.next (<anonymous>)"

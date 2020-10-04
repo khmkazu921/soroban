@@ -1,0 +1,73 @@
+* {
+  font-family: "Yu Gothic",sans-serif; 
+}
+
+h1 {
+  text-align:center;
+  margin:20px;
+}
+
+#date {
+  text-align:right;
+  margin: 20px;
+}
+
+.outer {
+  margin: auto;
+}
+
+.inner {
+  margin: 5px;
+}
+
+caption{
+  font-weight: bold;
+  margin: 3px;
+  text-align: left;
+}
+
+.inner tr:nth-child(odd) {
+  background-color: #eaf4ff;
+}
+
+.inner tr:nth-child(even) {
+  background-color: #f9fcff;
+}
+
+.inner th{
+  background-color: #c6e2ff;
+  text-align: center;
+}
+
+.inner thead {
+  display: block;
+}
+
+.inner tbody {
+  display: block;
+  overflow-y: scroll;
+  height: 250px;
+}
+
+td {
+  word-break : break-all;
+  font-family: monospace;
+  font-size: 15px;
+  text-align: right;
+}
+
+.sheet{
+  width:50px;
+}
+
+.question {
+  width:50px;
+}
+
+.answer {
+  width:150px;
+}
+
+.time {
+  width:120px;
+}
